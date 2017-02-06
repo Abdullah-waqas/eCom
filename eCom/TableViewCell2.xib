@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -15,31 +16,37 @@
             <rect key="frame" x="0.0" y="0.0" width="639" height="430"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="639" height="429.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="639" height="429"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IiK-uB-aFO">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Crazy-Horse-genuine-Leather-Clutch-Briefcase-Laptop.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="IiK-uB-aFO">
                         <rect key="frame" x="0.0" y="0.0" width="639" height="340"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="340" id="x26-nz-x7X"/>
+                        </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Product Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eQ9-3B-HjB">
-                        <rect key="frame" x="8" y="357" width="135" height="21"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eQ9-3B-HjB">
+                        <rect key="frame" x="8" y="357" width="110" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="8UM-Xl-hTN"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Price: $50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZPR-cY-JB8">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price: $50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZPR-cY-JB8">
                         <rect key="frame" x="8" y="386" width="80" height="21"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DLS-wa-xno" customClass="customUIButton" customModule="eCom" customModuleProvider="target">
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DLS-wa-xno" customClass="customUIButton" customModule="eCom" customModuleProvider="target">
                         <rect key="frame" x="543" y="377" width="88" height="30"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="0.28235294117647058" green="0.74117647058823533" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="05e-dT-GuS"/>
+                            <constraint firstAttribute="width" constant="88" id="Fzo-40-DWN"/>
+                        </constraints>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <state key="normal" title="Add"/>
                         <userDefinedRuntimeAttributes>
@@ -48,16 +55,33 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </button>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Visit.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4PU-Cs-53Q">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visit.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4PU-Cs-53Q">
                         <rect key="frame" x="117" y="386" width="71" height="21"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
+                <constraints>
+                    <constraint firstItem="IiK-uB-aFO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="0Gr-II-VRN"/>
+                    <constraint firstItem="4PU-Cs-53Q" firstAttribute="top" secondItem="eQ9-3B-HjB" secondAttribute="bottom" constant="8" id="2Xc-Q4-KFw"/>
+                    <constraint firstItem="DLS-wa-xno" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="5ar-Kr-4rR"/>
+                    <constraint firstItem="eQ9-3B-HjB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="9d1-Nh-FL6"/>
+                    <constraint firstAttribute="trailing" secondItem="IiK-uB-aFO" secondAttribute="trailing" id="9fP-n9-uya"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="DLS-wa-xno" secondAttribute="bottom" constant="14" id="G74-5M-04F"/>
+                    <constraint firstItem="ZPR-cY-JB8" firstAttribute="top" secondItem="eQ9-3B-HjB" secondAttribute="bottom" constant="8" id="Maq-pl-a2E"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ZPR-cY-JB8" secondAttribute="bottom" constant="14" id="O1h-ki-zwR"/>
+                    <constraint firstItem="eQ9-3B-HjB" firstAttribute="top" secondItem="IiK-uB-aFO" secondAttribute="bottom" constant="17" id="gh4-Tq-zEQ"/>
+                    <constraint firstItem="ZPR-cY-JB8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="jHQ-Sw-7tY"/>
+                    <constraint firstItem="4PU-Cs-53Q" firstAttribute="leading" secondItem="ZPR-cY-JB8" secondAttribute="trailing" constant="29" id="otP-eh-jzR"/>
+                    <constraint firstItem="DLS-wa-xno" firstAttribute="top" secondItem="IiK-uB-aFO" secondAttribute="bottom" constant="37" id="suf-dq-ZD0"/>
+                    <constraint firstItem="IiK-uB-aFO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="uyo-Wc-c9e"/>
+                </constraints>
             </tableViewCellContentView>
             <point key="canvasLocation" x="193.5" y="72"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="Crazy-Horse-genuine-Leather-Clutch-Briefcase-Laptop.jpg" width="500" height="425"/>
+    </resources>
 </document>
