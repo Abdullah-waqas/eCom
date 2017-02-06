@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8FD48B81E470A2E001BE72C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FD48B71E470A2E001BE72C /* AppDelegate.swift */; };
+		B8FD48BA1E470A2E001BE72C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FD48B91E470A2E001BE72C /* ViewController.swift */; };
+		B8FD48BD1E470A2E001BE72C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8FD48BB1E470A2E001BE72C /* Main.storyboard */; };
+		B8FD48BF1E470A2E001BE72C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8FD48BE1E470A2E001BE72C /* Assets.xcassets */; };
+		B8FD48C21E470A2E001BE72C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8FD48C01E470A2E001BE72C /* LaunchScreen.storyboard */; };
+		B8FD48CD1E478085001BE72C /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FD48CB1E478085001BE72C /* HomeTableViewCell.swift */; };
+		B8FD48CE1E478085001BE72C /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8FD48CC1E478085001BE72C /* HomeTableViewCell.xib */; };
+		B8FD48D21E478850001BE72C /* customUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FD48D11E478850001BE72C /* customUIButton.swift */; };
+		B8FD48D51E478A54001BE72C /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FD48D31E478A54001BE72C /* TableViewCell1.swift */; };
+		B8FD48D61E478A54001BE72C /* TableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8FD48D41E478A54001BE72C /* TableViewCell1.xib */; };
+		B8FD48D91E47A21D001BE72C /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FD48D71E47A21D001BE72C /* TableViewCell2.swift */; };
+		B8FD48DA1E47A21D001BE72C /* TableViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8FD48D81E47A21D001BE72C /* TableViewCell2.xib */; };
+		B8FD48DC1E47A5A8001BE72C /* Crazy-Horse-genuine-Leather-Clutch-Briefcase-Laptop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8FD48DB1E47A5A8001BE72C /* Crazy-Horse-genuine-Leather-Clutch-Briefcase-Laptop.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B8FD48B41E470A2E001BE72C /* eCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8FD48B71E470A2E001BE72C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8FD48B91E470A2E001BE72C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B8FD48BC1E470A2E001BE72C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8FD48BE1E470A2E001BE72C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8FD48C11E470A2E001BE72C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8FD48C31E470A2E001BE72C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8FD48CB1E478085001BE72C /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		B8FD48CC1E478085001BE72C /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		B8FD48D11E478850001BE72C /* customUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customUIButton.swift; sourceTree = "<group>"; };
+		B8FD48D31E478A54001BE72C /* TableViewCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell1.swift; sourceTree = "<group>"; };
+		B8FD48D41E478A54001BE72C /* TableViewCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell1.xib; sourceTree = "<group>"; };
+		B8FD48D71E47A21D001BE72C /* TableViewCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
+		B8FD48D81E47A21D001BE72C /* TableViewCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell2.xib; sourceTree = "<group>"; };
+		B8FD48DB1E47A5A8001BE72C /* Crazy-Horse-genuine-Leather-Clutch-Briefcase-Laptop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Crazy-Horse-genuine-Leather-Clutch-Briefcase-Laptop.jpg"; path = "../../../7-daysAssets/Crazy-Horse-genuine-Leather-Clutch-Briefcase-Laptop.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8FD48B11E470A2E001BE72C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8FD48AB1E470A2E001BE72C = {
+			isa = PBXGroup;
+			children = (
+				B8FD48B61E470A2E001BE72C /* eCom */,
+				B8FD48B51E470A2E001BE72C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8FD48B51E470A2E001BE72C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8FD48B41E470A2E001BE72C /* eCom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8FD48B61E470A2E001BE72C /* eCom */ = {
+			isa = PBXGroup;
+			children = (
+				B8FD48B71E470A2E001BE72C /* AppDelegate.swift */,
+				B8FD48D01E47880D001BE72C /* custom */,
+				B8FD48CF1E4780CC001BE72C /* home */,
+				B8FD48BB1E470A2E001BE72C /* Main.storyboard */,
+				B8FD48BE1E470A2E001BE72C /* Assets.xcassets */,
+				B8FD48DB1E47A5A8001BE72C /* Crazy-Horse-genuine-Leather-Clutch-Briefcase-Laptop.jpg */,
+				B8FD48C01E470A2E001BE72C /* LaunchScreen.storyboard */,
+				B8FD48C31E470A2E001BE72C /* Info.plist */,
+			);
+			path = eCom;
+			sourceTree = "<group>";
+		};
+		B8FD48CF1E4780CC001BE72C /* home */ = {
+			isa = PBXGroup;
+			children = (
+				B8FD48B91E470A2E001BE72C /* ViewController.swift */,
+				B8FD48D71E47A21D001BE72C /* TableViewCell2.swift */,
+				B8FD48D81E47A21D001BE72C /* TableViewCell2.xib */,
+				B8FD48D31E478A54001BE72C /* TableViewCell1.swift */,
+				B8FD48D41E478A54001BE72C /* TableViewCell1.xib */,
+				B8FD48CB1E478085001BE72C /* HomeTableViewCell.swift */,
+				B8FD48CC1E478085001BE72C /* HomeTableViewCell.xib */,
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
+		B8FD48D01E47880D001BE72C /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				B8FD48D11E478850001BE72C /* customUIButton.swift */,
+			);
+			name = custom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8FD48B31E470A2E001BE72C /* eCom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8FD48C61E470A2E001BE72C /* Build configuration list for PBXNativeTarget "eCom" */;
+			buildPhases = (
+				B8FD48B01E470A2E001BE72C /* Sources */,
+				B8FD48B11E470A2E001BE72C /* Frameworks */,
+				B8FD48B21E470A2E001BE72C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eCom;
+			productName = eCom;
+			productReference = B8FD48B41E470A2E001BE72C /* eCom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8FD48AC1E470A2E001BE72C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Abdullah;
+				TargetAttributes = {
+					B8FD48B31E470A2E001BE72C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B8FD48AF1E470A2E001BE72C /* Build configuration list for PBXProject "eCom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8FD48AB1E470A2E001BE72C;
+			productRefGroup = B8FD48B51E470A2E001BE72C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8FD48B31E470A2E001BE72C /* eCom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8FD48B21E470A2E001BE72C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8FD48D61E478A54001BE72C /* TableViewCell1.xib in Resources */,
+				B8FD48C21E470A2E001BE72C /* LaunchScreen.storyboard in Resources */,
+				B8FD48BF1E470A2E001BE72C /* Assets.xcassets in Resources */,
+				B8FD48DC1E47A5A8001BE72C /* Crazy-Horse-genuine-Leather-Clutch-Briefcase-Laptop.jpg in Resources */,
+				B8FD48CE1E478085001BE72C /* HomeTableViewCell.xib in Resources */,
+				B8FD48DA1E47A21D001BE72C /* TableViewCell2.xib in Resources */,
+				B8FD48BD1E470A2E001BE72C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8FD48B01E470A2E001BE72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8FD48D21E478850001BE72C /* customUIButton.swift in Sources */,
+				B8FD48D91E47A21D001BE72C /* TableViewCell2.swift in Sources */,
+				B8FD48BA1E470A2E001BE72C /* ViewController.swift in Sources */,
+				B8FD48D51E478A54001BE72C /* TableViewCell1.swift in Sources */,
+				B8FD48CD1E478085001BE72C /* HomeTableViewCell.swift in Sources */,
+				B8FD48B81E470A2E001BE72C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B8FD48BB1E470A2E001BE72C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8FD48BC1E470A2E001BE72C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8FD48C01E470A2E001BE72C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8FD48C11E470A2E001BE72C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8FD48C41E470A2E001BE72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8FD48C51E470A2E001BE72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8FD48C71E470A2E001BE72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = eCom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.eCom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B8FD48C81E470A2E001BE72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = eCom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.eCom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8FD48AF1E470A2E001BE72C /* Build configuration list for PBXProject "eCom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8FD48C41E470A2E001BE72C /* Debug */,
+				B8FD48C51E470A2E001BE72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8FD48C61E470A2E001BE72C /* Build configuration list for PBXNativeTarget "eCom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8FD48C71E470A2E001BE72C /* Debug */,
+				B8FD48C81E470A2E001BE72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8FD48AC1E470A2E001BE72C /* Project object */;
+}
