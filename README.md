@@ -1,4 +1,3 @@
 ## Screenshots
 
-<img src="http://i.imgur.com/BnmzR77.jpg" width="550"/>
-<img src='https://s28.postimg.org/ixnmhjvx5/1485456485_tmp_Taipei.jpg' border='0' alt='postimage'/>
+<img src='https://s29.postimg.org/8gdjsre83/Screen_Shot_2017_02_08_at_11_46_08_PM.png' border='0' alt='postimage'/>
