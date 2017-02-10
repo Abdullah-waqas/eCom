@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B80246C71E4BAA810086F157 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80246C61E4BAA810086F157 /* MyTableViewCell.swift */; };
 		B8FD48B81E470A2E001BE72C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FD48B71E470A2E001BE72C /* AppDelegate.swift */; };
 		B8FD48BA1E470A2E001BE72C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FD48B91E470A2E001BE72C /* ViewController.swift */; };
 		B8FD48BD1E470A2E001BE72C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8FD48BB1E470A2E001BE72C /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B80246C61E4BAA810086F157 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		B8FD48B41E470A2E001BE72C /* eCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8FD48B71E470A2E001BE72C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8FD48B91E470A2E001BE72C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				B8FD48D01E47880D001BE72C /* custom */,
 				B8FD48CF1E4780CC001BE72C /* home */,
 				B8FD48BB1E470A2E001BE72C /* Main.storyboard */,
+				B80246C61E4BAA810086F157 /* MyTableViewCell.swift */,
 				B8FD48BE1E470A2E001BE72C /* Assets.xcassets */,
 				B8FD48DB1E47A5A8001BE72C /* Crazy-Horse-genuine-Leather-Clutch-Briefcase-Laptop.jpg */,
 				B8FD48C01E470A2E001BE72C /* LaunchScreen.storyboard */,
@@ -181,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8FD48D21E478850001BE72C /* customUIButton.swift in Sources */,
+				B80246C71E4BAA810086F157 /* MyTableViewCell.swift in Sources */,
 				B8FD48D91E47A21D001BE72C /* TableViewCell2.swift in Sources */,
 				B8FD48BA1E470A2E001BE72C /* ViewController.swift in Sources */,
 				B8FD48D51E478A54001BE72C /* TableViewCell1.swift in Sources */,
@@ -345,6 +349,7 @@
 				B8FD48C81E470A2E001BE72C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
