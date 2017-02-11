@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		B80246C71E4BAA810086F157 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80246C61E4BAA810086F157 /* MyTableViewCell.swift */; };
+		B81142DD1E4F486C00EF9D93 /* loginBg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B81142D41E4F486C00EF9D93 /* loginBg.jpg */; };
+		B81142DE1E4F486C00EF9D93 /* loginBg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B81142D51E4F486C00EF9D93 /* loginBg1.jpg */; };
+		B81142DF1E4F486C00EF9D93 /* loginBg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B81142D61E4F486C00EF9D93 /* loginBg2.jpg */; };
+		B81142E01E4F486C00EF9D93 /* loginBg3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B81142D71E4F486C00EF9D93 /* loginBg3.jpeg */; };
+		B81142E11E4F486C00EF9D93 /* loginBg4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B81142D81E4F486C00EF9D93 /* loginBg4.jpeg */; };
+		B81142E21E4F486C00EF9D93 /* loginBg5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B81142D91E4F486C00EF9D93 /* loginBg5.jpg */; };
+		B81142E31E4F486C00EF9D93 /* loginBg6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B81142DA1E4F486C00EF9D93 /* loginBg6.jpg */; };
+		B81142E41E4F486C00EF9D93 /* loginBg7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B81142DB1E4F486C00EF9D93 /* loginBg7.jpg */; };
+		B81142E51E4F486C00EF9D93 /* loginBg8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B81142DC1E4F486C00EF9D93 /* loginBg8.jpg */; };
+		B81142E71E4F4B2100EF9D93 /* customUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81142E61E4F4B2100EF9D93 /* customUITextField.swift */; };
+		B81142E91E4F534C00EF9D93 /* customUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81142E81E4F534C00EF9D93 /* customUIImage.swift */; };
 		B8FD48B81E470A2E001BE72C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FD48B71E470A2E001BE72C /* AppDelegate.swift */; };
 		B8FD48BA1E470A2E001BE72C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FD48B91E470A2E001BE72C /* ViewController.swift */; };
 		B8FD48BD1E470A2E001BE72C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8FD48BB1E470A2E001BE72C /* Main.storyboard */; };
@@ -25,6 +36,17 @@
 
 /* Begin PBXFileReference section */
 		B80246C61E4BAA810086F157 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		B81142D41E4F486C00EF9D93 /* loginBg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = loginBg.jpg; path = "../../../7-daysAssets/loginBg.jpg"; sourceTree = "<group>"; };
+		B81142D51E4F486C00EF9D93 /* loginBg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = loginBg1.jpg; path = "../../../7-daysAssets/loginBg1.jpg"; sourceTree = "<group>"; };
+		B81142D61E4F486C00EF9D93 /* loginBg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = loginBg2.jpg; path = "../../../7-daysAssets/loginBg2.jpg"; sourceTree = "<group>"; };
+		B81142D71E4F486C00EF9D93 /* loginBg3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = loginBg3.jpeg; path = "../../../7-daysAssets/loginBg3.jpeg"; sourceTree = "<group>"; };
+		B81142D81E4F486C00EF9D93 /* loginBg4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = loginBg4.jpeg; path = "../../../7-daysAssets/loginBg4.jpeg"; sourceTree = "<group>"; };
+		B81142D91E4F486C00EF9D93 /* loginBg5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = loginBg5.jpg; path = "../../../7-daysAssets/loginBg5.jpg"; sourceTree = "<group>"; };
+		B81142DA1E4F486C00EF9D93 /* loginBg6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = loginBg6.jpg; path = "../../../7-daysAssets/loginBg6.jpg"; sourceTree = "<group>"; };
+		B81142DB1E4F486C00EF9D93 /* loginBg7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = loginBg7.jpg; path = "../../../7-daysAssets/loginBg7.jpg"; sourceTree = "<group>"; };
+		B81142DC1E4F486C00EF9D93 /* loginBg8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = loginBg8.jpg; path = "../../../7-daysAssets/loginBg8.jpg"; sourceTree = "<group>"; };
+		B81142E61E4F4B2100EF9D93 /* customUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = customUITextField.swift; path = "../../../7-days/7-days/customUITextField.swift"; sourceTree = "<group>"; };
+		B81142E81E4F534C00EF9D93 /* customUIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customUIImage.swift; sourceTree = "<group>"; };
 		B8FD48B41E470A2E001BE72C /* eCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8FD48B71E470A2E001BE72C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8FD48B91E470A2E001BE72C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +101,15 @@
 				B80246C61E4BAA810086F157 /* MyTableViewCell.swift */,
 				B8FD48BE1E470A2E001BE72C /* Assets.xcassets */,
 				B8FD48DB1E47A5A8001BE72C /* Crazy-Horse-genuine-Leather-Clutch-Briefcase-Laptop.jpg */,
+				B81142D41E4F486C00EF9D93 /* loginBg.jpg */,
+				B81142D51E4F486C00EF9D93 /* loginBg1.jpg */,
+				B81142D61E4F486C00EF9D93 /* loginBg2.jpg */,
+				B81142D71E4F486C00EF9D93 /* loginBg3.jpeg */,
+				B81142D81E4F486C00EF9D93 /* loginBg4.jpeg */,
+				B81142D91E4F486C00EF9D93 /* loginBg5.jpg */,
+				B81142DA1E4F486C00EF9D93 /* loginBg6.jpg */,
+				B81142DB1E4F486C00EF9D93 /* loginBg7.jpg */,
+				B81142DC1E4F486C00EF9D93 /* loginBg8.jpg */,
 				B8FD48C01E470A2E001BE72C /* LaunchScreen.storyboard */,
 				B8FD48C31E470A2E001BE72C /* Info.plist */,
 			);
@@ -103,6 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				B8FD48D11E478850001BE72C /* customUIButton.swift */,
+				B81142E81E4F534C00EF9D93 /* customUIImage.swift */,
+				B81142E61E4F4B2100EF9D93 /* customUITextField.swift */,
 			);
 			name = custom;
 			sourceTree = "<group>";
@@ -166,13 +199,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B81142E21E4F486C00EF9D93 /* loginBg5.jpg in Resources */,
+				B81142E41E4F486C00EF9D93 /* loginBg7.jpg in Resources */,
+				B81142E01E4F486C00EF9D93 /* loginBg3.jpeg in Resources */,
 				B8FD48D61E478A54001BE72C /* TableViewCell1.xib in Resources */,
+				B81142DF1E4F486C00EF9D93 /* loginBg2.jpg in Resources */,
+				B81142E51E4F486C00EF9D93 /* loginBg8.jpg in Resources */,
 				B8FD48C21E470A2E001BE72C /* LaunchScreen.storyboard in Resources */,
 				B8FD48BF1E470A2E001BE72C /* Assets.xcassets in Resources */,
 				B8FD48DC1E47A5A8001BE72C /* Crazy-Horse-genuine-Leather-Clutch-Briefcase-Laptop.jpg in Resources */,
+				B81142DD1E4F486C00EF9D93 /* loginBg.jpg in Resources */,
 				B8FD48CE1E478085001BE72C /* HomeTableViewCell.xib in Resources */,
+				B81142E31E4F486C00EF9D93 /* loginBg6.jpg in Resources */,
 				B8FD48DA1E47A21D001BE72C /* TableViewCell2.xib in Resources */,
+				B81142DE1E4F486C00EF9D93 /* loginBg1.jpg in Resources */,
 				B8FD48BD1E470A2E001BE72C /* Main.storyboard in Resources */,
+				B81142E11E4F486C00EF9D93 /* loginBg4.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +229,8 @@
 				B80246C71E4BAA810086F157 /* MyTableViewCell.swift in Sources */,
 				B8FD48D91E47A21D001BE72C /* TableViewCell2.swift in Sources */,
 				B8FD48BA1E470A2E001BE72C /* ViewController.swift in Sources */,
+				B81142E71E4F4B2100EF9D93 /* customUITextField.swift in Sources */,
+				B81142E91E4F534C00EF9D93 /* customUIImage.swift in Sources */,
 				B8FD48D51E478A54001BE72C /* TableViewCell1.swift in Sources */,
 				B8FD48CD1E478085001BE72C /* HomeTableViewCell.swift in Sources */,
 				B8FD48B81E470A2E001BE72C /* AppDelegate.swift in Sources */,

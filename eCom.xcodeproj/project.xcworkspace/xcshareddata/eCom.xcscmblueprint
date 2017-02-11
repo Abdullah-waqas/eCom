@@ -4,13 +4,15 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "2041290E8D19997C6FFC1C6C64C5360908F66724" : 9223372036854775807,
-    "DEA1F2F32E88F8D9EC81C3965C008A7F1525D924" : 9223372036854775807
+    "4E7AC86E0AC71E8E9588A3F1B2E63E7AE2726136" : 9223372036854775807,
+    "DEA1F2F32E88F8D9EC81C3965C008A7F1525D924" : 9223372036854775807,
+    "2041290E8D19997C6FFC1C6C64C5360908F66724" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "60CB3BF3-8714-403A-AC62-17EF249E8557",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "2041290E8D19997C6FFC1C6C64C5360908F66724" : "",
-    "DEA1F2F32E88F8D9EC81C3965C008A7F1525D924" : "eCom\/"
+    "4E7AC86E0AC71E8E9588A3F1B2E63E7AE2726136" : "..\/7-days",
+    "DEA1F2F32E88F8D9EC81C3965C008A7F1525D924" : "eCom\/",
+    "2041290E8D19997C6FFC1C6C64C5360908F66724" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "eCom",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -20,6 +22,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Abdullah-waqas\/tableView.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2041290E8D19997C6FFC1C6C64C5360908F66724"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/hamdanjaved\/7days.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4E7AC86E0AC71E8E9588A3F1B2E63E7AE2726136"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Abdullah-waqas\/eCom.git",
