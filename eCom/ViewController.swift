@@ -15,8 +15,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 //        tableview.register(nib: UINib(nibName: "TableViewCell1", bundle: Bundle.main), forCellWithReuseIdentifier: "tableCell")
-        
-        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+//        self.navigationController?.navigationBar.titleTextAttributes
     }
     
     override func didReceiveMemoryWarning() {
