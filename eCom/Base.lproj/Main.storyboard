@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--App-->
+        <!--Collection View Controller-->
         <scene sceneID="S7C-Jb-2QY">
             <objects>
                 <viewController id="lgS-Nn-jea" customClass="CollectionViewController" customModule="eCom" customModuleProvider="target" sceneMemberID="viewController">
@@ -23,7 +23,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="B2s-of-GM9">
-                                <rect key="frame" x="0.0" y="70" width="375" height="525"/>
+                                <rect key="frame" x="0.0" y="114" width="375" height="481"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="KJi-eq-H9F">
                                     <size key="itemSize" width="150" height="160"/>
@@ -39,7 +39,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="150" height="160"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Crazy-Horse-genuine-Leather-Clutch-Briefcase-Laptop.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zun-Fp-Me0">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="handBag2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zun-Fp-Me0">
                                                     <rect key="frame" x="0.0" y="0.0" width="150" height="130"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tet-Gr-Hm1">
@@ -78,16 +78,16 @@
                             <constraint firstItem="B2s-of-GM9" firstAttribute="top" secondItem="CMO-xt-IuA" secondAttribute="bottom" constant="50" id="iCO-Q3-td6"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="App" id="4SK-bb-xog"/>
+                    <navigationItem key="navigationItem" id="t4c-Dn-JQx"/>
                     <connections>
                         <outlet property="collectionView" destination="B2s-of-GM9" id="C7i-kq-eXg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Nx-Mq-Bih" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="528.79999999999995" y="-470.01499250374815"/>
+            <point key="canvasLocation" x="1468" y="-470.01499250374815"/>
         </scene>
-        <!--Favorites-->
+        <!--View Controller-->
         <scene sceneID="28j-bB-Uwg">
             <objects>
                 <viewController id="Atm-B9-MLV" sceneMemberID="viewController">
@@ -100,7 +100,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pdw-hM-1OA">
-                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <rect key="frame" x="0.0" y="108" width="375" height="510"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
                         </subviews>
@@ -112,11 +112,11 @@
                             <constraint firstItem="rNm-eD-PKZ" firstAttribute="top" secondItem="pdw-hM-1OA" secondAttribute="bottom" id="aUm-Eh-z87"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Favorites" id="h4Z-Rg-OhM"/>
+                    <navigationItem key="navigationItem" id="enO-C7-Por"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dNb-8v-UDT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="528.79999999999995" y="187.55622188905548"/>
+            <point key="canvasLocation" x="1468" y="187.55622188905548"/>
         </scene>
         <!--Multiple Table View Controller-->
         <scene sceneID="05q-1O-ce3">
@@ -271,7 +271,7 @@
                                                         <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y5V-rk-O3f">
                                                             <rect key="frame" x="0.0" y="0.0" width="355" height="144"/>
                                                             <subviews>
-                                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Crazy-Horse-genuine-Leather-Clutch-Briefcase-Laptop.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xko-6N-Vul">
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="handBag1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xko-6N-Vul">
                                                                     <rect key="frame" x="0.0" y="0.0" width="355" height="144"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="355" id="IA7-3P-pf0"/>
@@ -578,7 +578,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UEk-vF-aQ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3184.8000000000002" y="-734.48275862068976"/>
+            <point key="canvasLocation" x="2934" y="-770"/>
         </scene>
         <!--Product Detail-->
         <scene sceneID="rbd-8W-dGh">
@@ -598,7 +598,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pel-dv-JV4">
                                         <rect key="frame" x="0.0" y="0.0" width="355" height="464"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Crazy-Horse-genuine-Leather-Clutch-Briefcase-Laptop.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8Tt-3C-yd6">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="handBag1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8Tt-3C-yd6">
                                                 <rect key="frame" x="0.0" y="0.0" width="355" height="464"/>
                                             </imageView>
                                         </subviews>
@@ -704,8 +704,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="eQI-OD-vxJ" kind="relationship" relationship="viewControllers" id="nxO-De-mbJ"/>
-                        <segue destination="lgS-Nn-jea" kind="relationship" relationship="viewControllers" id="rR4-qP-UgR"/>
-                        <segue destination="Atm-B9-MLV" kind="relationship" relationship="viewControllers" id="it1-Ba-FuA"/>
+                        <segue destination="1Ud-7G-Grg" kind="relationship" relationship="viewControllers" id="rR4-qP-UgR"/>
+                        <segue destination="xf9-EB-ByH" kind="relationship" relationship="viewControllers" id="it1-Ba-FuA"/>
                         <segue destination="gB4-6d-Dzb" kind="relationship" relationship="viewControllers" id="NDe-ko-oQb"/>
                     </connections>
                 </tabBarController>
@@ -748,13 +748,52 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oDL-JG-yO1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2245.5999999999999" y="-734.48275862068976"/>
+            <point key="canvasLocation" x="2246" y="-770"/>
+        </scene>
+        <!--Favorites-->
+        <scene sceneID="PMY-hk-atf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xf9-EB-ByH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Favorites" id="h4Z-Rg-OhM"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hsm-BQ-1iE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Atm-B9-MLV" kind="relationship" relationship="rootViewController" id="0Hm-my-uND"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X9M-6z-CAa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="528.79999999999995" y="187.55622188905548"/>
+        </scene>
+        <!--App-->
+        <scene sceneID="9QF-x2-mbr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1Ud-7G-Grg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="App" id="4SK-bb-xog"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fXp-Mr-Y96">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lgS-Nn-jea" kind="relationship" relationship="rootViewController" id="FNy-r4-VB0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DCT-z5-EzT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="528.79999999999995" y="-470.01499250374815"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Crazy-Horse-genuine-Leather-Clutch-Briefcase-Laptop.jpg" width="500" height="425"/>
         <image name="cart" width="128" height="128"/>
         <image name="fb2" width="128" height="128"/>
+        <image name="handBag1.jpg" width="500" height="425"/>
+        <image name="handBag2.jpg" width="220" height="220"/>
         <image name="like" width="50" height="50"/>
         <image name="login" width="50" height="50"/>
         <image name="loginBg5.jpg" width="1920" height="1080"/>

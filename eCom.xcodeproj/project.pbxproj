@@ -8,8 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		B80246C71E4BAA810086F157 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80246C61E4BAA810086F157 /* MyTableViewCell.swift */; };
-		B80527B51E52180D002D49A5 /* images in Resources */ = {isa = PBXBuildFile; fileRef = B80527B41E52180D002D49A5 /* images */; };
 		B80527B81E5228D2002D49A5 /* customUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80527B71E5228D2002D49A5 /* customUITextField.swift */; };
+		B80527C41E52321A002D49A5 /* handBag1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B80527B91E52321A002D49A5 /* handBag1.jpg */; };
+		B80527C51E52321A002D49A5 /* handBag2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B80527BA1E52321A002D49A5 /* handBag2.jpg */; };
+		B80527C61E52321A002D49A5 /* loginBg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B80527BB1E52321A002D49A5 /* loginBg.jpg */; };
+		B80527C71E52321A002D49A5 /* loginBg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B80527BC1E52321A002D49A5 /* loginBg1.jpg */; };
+		B80527C81E52321A002D49A5 /* loginBg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B80527BD1E52321A002D49A5 /* loginBg2.jpg */; };
+		B80527C91E52321A002D49A5 /* loginBg3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B80527BE1E52321A002D49A5 /* loginBg3.jpeg */; };
+		B80527CA1E52321A002D49A5 /* loginBg4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B80527BF1E52321A002D49A5 /* loginBg4.jpeg */; };
+		B80527CB1E52321A002D49A5 /* loginBg5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B80527C01E52321A002D49A5 /* loginBg5.jpg */; };
+		B80527CC1E52321A002D49A5 /* loginBg6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B80527C11E52321A002D49A5 /* loginBg6.jpg */; };
+		B80527CD1E52321A002D49A5 /* loginBg7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B80527C21E52321A002D49A5 /* loginBg7.jpg */; };
+		B80527CE1E52321A002D49A5 /* loginBg8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B80527C31E52321A002D49A5 /* loginBg8.jpg */; };
 		B81142E91E4F534C00EF9D93 /* customUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81142E81E4F534C00EF9D93 /* customUIImage.swift */; };
 		B8392DF81E506F15002CBCDC /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8392DF71E506F15002CBCDC /* CollectionViewController.swift */; };
 		B8FBA01E1E508C7900CF96BA /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FBA01C1E508C7900CF96BA /* CollectionViewCell.swift */; };
@@ -31,8 +41,18 @@
 
 /* Begin PBXFileReference section */
 		B80246C61E4BAA810086F157 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
-		B80527B41E52180D002D49A5 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		B80527B71E5228D2002D49A5 /* customUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customUITextField.swift; sourceTree = "<group>"; };
+		B80527B91E52321A002D49A5 /* handBag1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = handBag1.jpg; sourceTree = "<group>"; };
+		B80527BA1E52321A002D49A5 /* handBag2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = handBag2.jpg; sourceTree = "<group>"; };
+		B80527BB1E52321A002D49A5 /* loginBg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginBg.jpg; sourceTree = "<group>"; };
+		B80527BC1E52321A002D49A5 /* loginBg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginBg1.jpg; sourceTree = "<group>"; };
+		B80527BD1E52321A002D49A5 /* loginBg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginBg2.jpg; sourceTree = "<group>"; };
+		B80527BE1E52321A002D49A5 /* loginBg3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginBg3.jpeg; sourceTree = "<group>"; };
+		B80527BF1E52321A002D49A5 /* loginBg4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginBg4.jpeg; sourceTree = "<group>"; };
+		B80527C01E52321A002D49A5 /* loginBg5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginBg5.jpg; sourceTree = "<group>"; };
+		B80527C11E52321A002D49A5 /* loginBg6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginBg6.jpg; sourceTree = "<group>"; };
+		B80527C21E52321A002D49A5 /* loginBg7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginBg7.jpg; sourceTree = "<group>"; };
+		B80527C31E52321A002D49A5 /* loginBg8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginBg8.jpg; sourceTree = "<group>"; };
 		B81142E81E4F534C00EF9D93 /* customUIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customUIImage.swift; sourceTree = "<group>"; };
 		B8392DF71E506F15002CBCDC /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		B8FBA01C1E508C7900CF96BA /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
@@ -65,14 +85,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B80527B61E521821002D49A5 /* ImageAssets */ = {
-			isa = PBXGroup;
-			children = (
-				B80527B41E52180D002D49A5 /* images */,
-			);
-			name = ImageAssets;
-			sourceTree = "<group>";
-		};
 		B8FBA0201E50904300CF96BA /* xib */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,8 +120,18 @@
 				B8FD48BB1E470A2E001BE72C /* Main.storyboard */,
 				B80246C61E4BAA810086F157 /* MyTableViewCell.swift */,
 				B8FD48BE1E470A2E001BE72C /* Assets.xcassets */,
-				B80527B61E521821002D49A5 /* ImageAssets */,
 				B8FD48C01E470A2E001BE72C /* LaunchScreen.storyboard */,
+				B80527B91E52321A002D49A5 /* handBag1.jpg */,
+				B80527BA1E52321A002D49A5 /* handBag2.jpg */,
+				B80527BB1E52321A002D49A5 /* loginBg.jpg */,
+				B80527BC1E52321A002D49A5 /* loginBg1.jpg */,
+				B80527BD1E52321A002D49A5 /* loginBg2.jpg */,
+				B80527BE1E52321A002D49A5 /* loginBg3.jpeg */,
+				B80527BF1E52321A002D49A5 /* loginBg4.jpeg */,
+				B80527C01E52321A002D49A5 /* loginBg5.jpg */,
+				B80527C11E52321A002D49A5 /* loginBg6.jpg */,
+				B80527C21E52321A002D49A5 /* loginBg7.jpg */,
+				B80527C31E52321A002D49A5 /* loginBg8.jpg */,
 				B8FD48C31E470A2E001BE72C /* Info.plist */,
 			);
 			path = eCom;
@@ -200,11 +222,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B80527B51E52180D002D49A5 /* images in Resources */,
 				B8FD48D61E478A54001BE72C /* TableViewCell1.xib in Resources */,
+				B80527CB1E52321A002D49A5 /* loginBg5.jpg in Resources */,
+				B80527CD1E52321A002D49A5 /* loginBg7.jpg in Resources */,
+				B80527C41E52321A002D49A5 /* handBag1.jpg in Resources */,
+				B80527CC1E52321A002D49A5 /* loginBg6.jpg in Resources */,
 				B8FD48C21E470A2E001BE72C /* LaunchScreen.storyboard in Resources */,
 				B8FD48BF1E470A2E001BE72C /* Assets.xcassets in Resources */,
+				B80527CE1E52321A002D49A5 /* loginBg8.jpg in Resources */,
+				B80527C51E52321A002D49A5 /* handBag2.jpg in Resources */,
+				B80527CA1E52321A002D49A5 /* loginBg4.jpeg in Resources */,
+				B80527C91E52321A002D49A5 /* loginBg3.jpeg in Resources */,
 				B8FD48CE1E478085001BE72C /* HomeTableViewCell.xib in Resources */,
+				B80527C61E52321A002D49A5 /* loginBg.jpg in Resources */,
+				B80527C81E52321A002D49A5 /* loginBg2.jpg in Resources */,
+				B80527C71E52321A002D49A5 /* loginBg1.jpg in Resources */,
 				B8FD48DA1E47A21D001BE72C /* TableViewCell2.xib in Resources */,
 				B8FBA01F1E508C7900CF96BA /* CollectionViewCell.xib in Resources */,
 				B8FD48BD1E470A2E001BE72C /* Main.storyboard in Resources */,

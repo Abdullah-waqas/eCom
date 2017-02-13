@@ -19,7 +19,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="310" height="276"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Crazy-Horse-genuine-Leather-Clutch-Briefcase-Laptop.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1Qi-6C-rE0">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="handBag1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1Qi-6C-rE0">
                         <rect key="frame" x="0.0" y="0.0" width="310" height="239"/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="1Qi-6C-rE0" secondAttribute="height" multiplier="310:239" id="Fpm-qW-pHo"/>
@@ -47,6 +47,6 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="Crazy-Horse-genuine-Leather-Clutch-Briefcase-Laptop.jpg" width="500" height="425"/>
+        <image name="handBag1.jpg" width="500" height="425"/>
     </resources>
 </document>
