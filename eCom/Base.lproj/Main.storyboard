@@ -26,24 +26,24 @@
                                 <rect key="frame" x="0.0" y="114" width="375" height="481"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="KJi-eq-H9F">
-                                    <size key="itemSize" width="150" height="160"/>
+                                    <size key="itemSize" width="160" height="160"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="categoryCell1" id="CbI-wh-lhp">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="160"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="150" height="160"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="handBag2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zun-Fp-Me0">
-                                                    <rect key="frame" x="0.0" y="0.0" width="150" height="130"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="161" height="130"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tet-Gr-Hm1">
-                                                    <rect key="frame" x="53" y="135" width="44" height="21"/>
+                                                    <rect key="frame" x="53" y="135" width="55" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="c54-8K-VgR"/>
                                                     </constraints>
@@ -223,10 +223,10 @@
             </objects>
             <point key="canvasLocation" x="-1132" y="1823.8380809595203"/>
         </scene>
-        <!--Login-->
+        <!--Login View Controller-->
         <scene sceneID="ca8-gx-XVq">
             <objects>
-                <viewController id="gB4-6d-Dzb" sceneMemberID="viewController">
+                <viewController id="gB4-6d-Dzb" customClass="LoginViewController" customModule="eCom" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nTS-Ub-qz9"/>
                         <viewControllerLayoutGuide type="bottom" id="6nw-uP-mmk"/>
@@ -236,11 +236,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Login" id="HxV-7F-KSE"/>
+                    <navigationItem key="navigationItem" id="a7T-dZ-6Hi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XJ6-h7-0kJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="529" y="852"/>
+            <point key="canvasLocation" x="1468" y="851.42428785607206"/>
         </scene>
         <!--Abc Title-->
         <scene sceneID="R8h-7J-qc2">
@@ -578,7 +578,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UEk-vF-aQ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2934" y="-770"/>
+            <point key="canvasLocation" x="3137" y="-770"/>
         </scene>
         <!--Product Detail-->
         <scene sceneID="rbd-8W-dGh">
@@ -693,10 +693,31 @@
             </objects>
             <point key="canvasLocation" x="2245.5999999999999" y="-1425.3373313343329"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="qgG-bb-Dbz">
+            <objects>
+                <viewController id="iLi-Fu-vdO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vJU-cx-pRu"/>
+                        <viewControllerLayoutGuide type="bottom" id="uSB-fU-XuC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zRt-td-U3u">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="375" height="702"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1024"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Non-i5-fTB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3228" y="-1675"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="YxU-I3-rZ6">
             <objects>
-                <tabBarController id="Lk0-sw-V3e" sceneMemberID="viewController">
+                <tabBarController id="Lk0-sw-V3e" customClass="TabBarController" customModule="eCom" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="doX-VH-QWM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -706,7 +727,7 @@
                         <segue destination="eQI-OD-vxJ" kind="relationship" relationship="viewControllers" id="nxO-De-mbJ"/>
                         <segue destination="1Ud-7G-Grg" kind="relationship" relationship="viewControllers" id="rR4-qP-UgR"/>
                         <segue destination="xf9-EB-ByH" kind="relationship" relationship="viewControllers" id="it1-Ba-FuA"/>
-                        <segue destination="gB4-6d-Dzb" kind="relationship" relationship="viewControllers" id="NDe-ko-oQb"/>
+                        <segue destination="uKx-0F-l6U" kind="relationship" relationship="viewControllers" id="NDe-ko-oQb"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tl5-gC-wXe" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -787,6 +808,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DCT-z5-EzT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="528.79999999999995" y="-470.01499250374815"/>
+        </scene>
+        <!--Login-->
+        <scene sceneID="0xz-D9-irk">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uKx-0F-l6U" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Login" id="HxV-7F-KSE"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6E3-1u-XiC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="gB4-6d-Dzb" kind="relationship" relationship="rootViewController" id="jwm-dI-eeq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cyh-HF-48m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="528.79999999999995" y="851.42428785607206"/>
         </scene>
     </scenes>
     <resources>

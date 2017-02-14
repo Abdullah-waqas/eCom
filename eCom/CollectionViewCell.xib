@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -19,11 +18,9 @@
                 <rect key="frame" x="0.0" y="0.0" width="310" height="276"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="handBag1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1Qi-6C-rE0">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" fixedFrame="YES" image="handBag1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1Qi-6C-rE0">
                         <rect key="frame" x="0.0" y="0.0" width="310" height="239"/>
-                        <constraints>
-                            <constraint firstAttribute="width" secondItem="1Qi-6C-rE0" secondAttribute="height" multiplier="310:239" id="Fpm-qW-pHo"/>
-                        </constraints>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category Name-9" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lSh-5T-iAC">
                         <rect key="frame" x="83" y="247" width="145" height="21"/>
@@ -34,11 +31,7 @@
                 </subviews>
             </view>
             <constraints>
-                <constraint firstItem="lSh-5T-iAC" firstAttribute="top" secondItem="1Qi-6C-rE0" secondAttribute="bottom" constant="8" id="Dff-E4-oHy"/>
                 <constraint firstItem="lSh-5T-iAC" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="83" id="IyZ-62-f8r"/>
-                <constraint firstItem="1Qi-6C-rE0" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="KTZ-Nf-GJ6"/>
-                <constraint firstItem="1Qi-6C-rE0" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="NaM-hC-g2v"/>
-                <constraint firstAttribute="trailing" secondItem="1Qi-6C-rE0" secondAttribute="trailing" id="WzQ-Mq-zq8"/>
                 <constraint firstAttribute="bottom" secondItem="lSh-5T-iAC" secondAttribute="bottom" constant="8" id="dGZ-Jl-xH1"/>
                 <constraint firstAttribute="trailing" secondItem="lSh-5T-iAC" secondAttribute="trailing" constant="82" id="n1y-JZ-ukF"/>
             </constraints>

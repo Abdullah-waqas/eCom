@@ -20,6 +20,8 @@
 		B80527CC1E52321A002D49A5 /* loginBg6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B80527C11E52321A002D49A5 /* loginBg6.jpg */; };
 		B80527CD1E52321A002D49A5 /* loginBg7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B80527C21E52321A002D49A5 /* loginBg7.jpg */; };
 		B80527CE1E52321A002D49A5 /* loginBg8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B80527C31E52321A002D49A5 /* loginBg8.jpg */; };
+		B80527D01E5244E6002D49A5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80527CF1E5244E6002D49A5 /* LoginViewController.swift */; };
+		B80527D21E5248C5002D49A5 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80527D11E5248C5002D49A5 /* TabBarController.swift */; };
 		B81142E91E4F534C00EF9D93 /* customUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81142E81E4F534C00EF9D93 /* customUIImage.swift */; };
 		B8392DF81E506F15002CBCDC /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8392DF71E506F15002CBCDC /* CollectionViewController.swift */; };
 		B8FBA01E1E508C7900CF96BA /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FBA01C1E508C7900CF96BA /* CollectionViewCell.swift */; };
@@ -53,6 +55,8 @@
 		B80527C11E52321A002D49A5 /* loginBg6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginBg6.jpg; sourceTree = "<group>"; };
 		B80527C21E52321A002D49A5 /* loginBg7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginBg7.jpg; sourceTree = "<group>"; };
 		B80527C31E52321A002D49A5 /* loginBg8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginBg8.jpg; sourceTree = "<group>"; };
+		B80527CF1E5244E6002D49A5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B80527D11E5248C5002D49A5 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		B81142E81E4F534C00EF9D93 /* customUIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customUIImage.swift; sourceTree = "<group>"; };
 		B8392DF71E506F15002CBCDC /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		B8FBA01C1E508C7900CF96BA /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
@@ -149,6 +153,8 @@
 				B8FD48D41E478A54001BE72C /* TableViewCell1.xib */,
 				B8FD48CB1E478085001BE72C /* HomeTableViewCell.swift */,
 				B8FD48CC1E478085001BE72C /* HomeTableViewCell.xib */,
+				B80527CF1E5244E6002D49A5 /* LoginViewController.swift */,
+				B80527D11E5248C5002D49A5 /* TabBarController.swift */,
 			);
 			name = home;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 				B8FD48D51E478A54001BE72C /* TableViewCell1.swift in Sources */,
 				B8FD48CD1E478085001BE72C /* HomeTableViewCell.swift in Sources */,
 				B8FD48B81E470A2E001BE72C /* AppDelegate.swift in Sources */,
+				B80527D21E5248C5002D49A5 /* TabBarController.swift in Sources */,
+				B80527D01E5244E6002D49A5 /* LoginViewController.swift in Sources */,
 				B8FBA01E1E508C7900CF96BA /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -21,7 +21,7 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dlW-LB-DR2">
                         <rect key="frame" x="0.0" y="0.0" width="471" height="521"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Crazy-Horse-genuine-Leather-Clutch-Briefcase-Laptop.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Myx-He-sZY">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="handBag1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Myx-He-sZY">
                                 <rect key="frame" x="-1" y="0.0" width="472" height="367"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="367" id="Hc4-lW-rZM"/>
@@ -105,7 +105,7 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="Crazy-Horse-genuine-Leather-Clutch-Briefcase-Laptop.jpg" width="500" height="425"/>
+        <image name="handBag1.jpg" width="500" height="425"/>
         <image name="like" width="50" height="50"/>
     </resources>
 </document>

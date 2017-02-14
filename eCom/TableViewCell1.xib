@@ -27,7 +27,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i5F-SO-lKg">
                                         <rect key="frame" x="0.0" y="0.0" width="451" height="389"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Crazy-Horse-genuine-Leather-Clutch-Briefcase-Laptop.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="84P-P4-3pO">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="handBag1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="84P-P4-3pO">
                                                 <rect key="frame" x="0.0" y="0.0" width="451" height="389"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="389" id="hoT-VM-Liq"/>
@@ -121,6 +121,6 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="Crazy-Horse-genuine-Leather-Clutch-Briefcase-Laptop.jpg" width="500" height="425"/>
+        <image name="handBag1.jpg" width="500" height="425"/>
     </resources>
 </document>
